@@ -15,8 +15,9 @@ export default{
 	},
 	computed:{
 		showNav(){
-			return this.$route.path =='/login'
-		}
+			return this.$route.path =='/login'||this.$route.path =='/'||this.$route.path =='/articlepubinfo'
+		},
+		
 	}
 
 };

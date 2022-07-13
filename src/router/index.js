@@ -44,6 +44,11 @@ const routes = [
     name: 'ArticleInfo',
     component:  () => import('../views/article/ArticleInfo.vue')
   },
+  {
+    path: '/articlepubinfo',
+    name: 'ArticlePubInfo',
+    component:  () => import('../views/article/ArticlePubInfo.vue')
+  },
   
 ]
 
